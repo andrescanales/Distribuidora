@@ -34,8 +34,14 @@ namespace Distribuidora
 
         private void clientesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Cliente form = new Cliente();
-            form.Show();
+            Cliente form_cliente = new Cliente();
+            form_cliente.Show();
+        }
+
+        private void empleadosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Empleado form_empleado = new Empleado();
+            form_empleado.Show();
         }
     }
 }

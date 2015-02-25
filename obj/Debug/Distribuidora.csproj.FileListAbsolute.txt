@@ -9,3 +9,5 @@ c:\users\andres\documents\visual studio 2013\Projects\Distribuidora\Distribuidor
 C:\Users\Andres\documents\visual studio 2013\Projects\Distribuidora\Distribuidora\obj\Debug\Distribuidora.Form1.resources
 C:\Users\Andres\documents\visual studio 2013\Projects\Distribuidora\Distribuidora\obj\Debug\Distribuidora.Cliente.resources
 C:\Users\Andres\documents\visual studio 2013\Projects\Distribuidora\Distribuidora\obj\Debug\Distribuidora.NuevoCliente.resources
+C:\Users\Andres\documents\visual studio 2013\Projects\Distribuidora\Distribuidora\obj\Debug\Distribuidora.Empleado.resources
+C:\Users\Andres\documents\visual studio 2013\Projects\Distribuidora\Distribuidora\obj\Debug\Distribuidora.NuevoEmpleado.resources
