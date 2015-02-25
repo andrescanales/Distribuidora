@@ -1,0 +1,11 @@
+c:\users\andres\documents\visual studio 2013\Projects\Distribuidora\Distribuidora\bin\Debug\Distribuidora.exe.config
+c:\users\andres\documents\visual studio 2013\Projects\Distribuidora\Distribuidora\bin\Debug\Distribuidora.exe
+c:\users\andres\documents\visual studio 2013\Projects\Distribuidora\Distribuidora\bin\Debug\Distribuidora.pdb
+c:\users\andres\documents\visual studio 2013\Projects\Distribuidora\Distribuidora\obj\Debug\Distribuidora.csprojResolveAssemblyReference.cache
+c:\users\andres\documents\visual studio 2013\Projects\Distribuidora\Distribuidora\obj\Debug\Distribuidora.Properties.Resources.resources
+c:\users\andres\documents\visual studio 2013\Projects\Distribuidora\Distribuidora\obj\Debug\Distribuidora.csproj.GenerateResource.Cache
+c:\users\andres\documents\visual studio 2013\Projects\Distribuidora\Distribuidora\obj\Debug\Distribuidora.exe
+c:\users\andres\documents\visual studio 2013\Projects\Distribuidora\Distribuidora\obj\Debug\Distribuidora.pdb
+C:\Users\Andres\documents\visual studio 2013\Projects\Distribuidora\Distribuidora\obj\Debug\Distribuidora.Form1.resources
+C:\Users\Andres\documents\visual studio 2013\Projects\Distribuidora\Distribuidora\obj\Debug\Distribuidora.Cliente.resources
+C:\Users\Andres\documents\visual studio 2013\Projects\Distribuidora\Distribuidora\obj\Debug\Distribuidora.NuevoCliente.resources
