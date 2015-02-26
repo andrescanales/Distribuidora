@@ -32,7 +32,6 @@
             this.txt_telefono = new System.Windows.Forms.TextBox();
             this.txt_email = new System.Windows.Forms.TextBox();
             this.txt_direccion = new System.Windows.Forms.TextBox();
-            this.txt_fecha = new System.Windows.Forms.TextBox();
             this.txt_apellido = new System.Windows.Forms.TextBox();
             this.txt_nombre = new System.Windows.Forms.TextBox();
             this.txt_id = new System.Windows.Forms.TextBox();
@@ -46,6 +45,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.btn_cancelar = new System.Windows.Forms.Button();
             this.btn_guardar = new System.Windows.Forms.Button();
+            this.txt_fecha = new System.Windows.Forms.MaskedTextBox();
+            this.label9 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // combo_tipoemp
@@ -76,13 +77,6 @@
             this.txt_direccion.Name = "txt_direccion";
             this.txt_direccion.Size = new System.Drawing.Size(229, 20);
             this.txt_direccion.TabIndex = 30;
-            // 
-            // txt_fecha
-            // 
-            this.txt_fecha.Location = new System.Drawing.Point(189, 184);
-            this.txt_fecha.Name = "txt_fecha";
-            this.txt_fecha.Size = new System.Drawing.Size(100, 20);
-            this.txt_fecha.TabIndex = 29;
             // 
             // txt_apellido
             // 
@@ -195,19 +189,39 @@
             this.btn_guardar.TabIndex = 34;
             this.btn_guardar.Text = "Guardar";
             this.btn_guardar.UseVisualStyleBackColor = true;
+            this.btn_guardar.Click += new System.EventHandler(this.btn_guardar_Click);
+            // 
+            // txt_fecha
+            // 
+            this.txt_fecha.Location = new System.Drawing.Point(189, 184);
+            this.txt_fecha.Mask = "00/00/0000";
+            this.txt_fecha.Name = "txt_fecha";
+            this.txt_fecha.Size = new System.Drawing.Size(100, 20);
+            this.txt_fecha.TabIndex = 36;
+            this.txt_fecha.ValidatingType = typeof(System.DateTime);
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(301, 187);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(71, 13);
+            this.label9.TabIndex = 37;
+            this.label9.Text = "(MM/DD/AA)";
             // 
             // NuevoEmpleado
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(465, 394);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.txt_fecha);
             this.Controls.Add(this.btn_cancelar);
             this.Controls.Add(this.btn_guardar);
             this.Controls.Add(this.combo_tipoemp);
             this.Controls.Add(this.txt_telefono);
             this.Controls.Add(this.txt_email);
             this.Controls.Add(this.txt_direccion);
-            this.Controls.Add(this.txt_fecha);
             this.Controls.Add(this.txt_apellido);
             this.Controls.Add(this.txt_nombre);
             this.Controls.Add(this.txt_id);
@@ -233,7 +247,6 @@
         private System.Windows.Forms.TextBox txt_telefono;
         private System.Windows.Forms.TextBox txt_email;
         private System.Windows.Forms.TextBox txt_direccion;
-        private System.Windows.Forms.TextBox txt_fecha;
         private System.Windows.Forms.TextBox txt_apellido;
         private System.Windows.Forms.TextBox txt_nombre;
         private System.Windows.Forms.TextBox txt_id;
@@ -247,5 +260,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btn_cancelar;
         private System.Windows.Forms.Button btn_guardar;
+        private System.Windows.Forms.MaskedTextBox txt_fecha;
+        private System.Windows.Forms.Label label9;
     }
 }

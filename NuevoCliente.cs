@@ -41,19 +41,17 @@ namespace Distribuidora
 
             // 2. Luego traemos todos los departamentos para mostrarlos en el combobox
             try {
-                resultado = obj_sql.sqlquery(
+
+                DataSet dataset = new DataSet();
+
+                SqlDataAdapter adapter = obj_sql.adapter(
                     "SELECT id_departamento, nombre FROM departamentos",
                     obj_sql.conexion()
                     );
 
-                SqlDataAdapter adapter = new SqlDataAdapter();
-                DataSet dataset = new DataSet();
-                // Otras propiedades disponibles InsertCommand, UpdateCommand, DeleteCommand
-                adapter.SelectCommand = resultado;
                 adapter.Fill(dataset);
                 adapter.Dispose();
-                resultado.Dispose();
-                
+                 
                 combo_departamentos.DataSource = dataset.Tables[0];
                 combo_departamentos.ValueMember = "id_departamento";
                 combo_departamentos.DisplayMember = "nombre";
