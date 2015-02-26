@@ -46,7 +46,7 @@ namespace Distribuidora
                 MessageBox.Show(ex.Message);
             }
 
-            // 2. Luego traemos todos los departamentos para mostrarlos en el combobox
+            // 2. Luego traemos todos los tipos de empelados para mostrarlos en el combobox
             try
             {
                 DataSet dataset = new DataSet();
