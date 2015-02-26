@@ -43,5 +43,17 @@ namespace Distribuidora
             Empleado form_empleado = new Empleado();
             form_empleado.Show();
         }
+
+        private void categoriasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Categoria form_categoria = new Categoria();
+            form_categoria.Show();
+        }
+
+        private void listadoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Producto form_producto = new Producto();
+            form_producto.Show();
+        }
     }
 }
