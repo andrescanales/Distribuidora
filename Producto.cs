@@ -26,7 +26,7 @@ namespace Distribuidora
                 DataSet obj_dataset = new DataSet();
 
                 obj_sql.adapter(
-                    "SELECT p.id_producto AS ID, p.nombre AS NOMBRE, p.marca AS MARCA, "+ 
+                    "SELECT p.id_producto AS ID, p.nombre AS NOMBRE, p.peso AS PESO, p.marca AS MARCA, "+ 
                     "p.codigo AS CODIGO, p.precio AS PRECIO, c.categoria AS CATEGORIA FROM productos p "+
                     "INNER JOIN categorias c ON p.id_categoria=c.id_categoria;",
                     obj_sql.conexion()
@@ -44,6 +44,12 @@ namespace Distribuidora
         private void btn_regresar_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void btn_nuevo_Click(object sender, EventArgs e)
+        {
+            NuevoProducto form_nuevo = new NuevoProducto();
+            form_nuevo.Show();
         }
     }
 }

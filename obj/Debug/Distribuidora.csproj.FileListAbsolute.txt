@@ -14,3 +14,4 @@ C:\Users\Andres\documents\visual studio 2013\Projects\Distribuidora\Distribuidor
 C:\Users\Andres\documents\visual studio 2013\Projects\Distribuidora\Distribuidora\obj\Debug\Distribuidora.Categoria.resources
 C:\Users\Andres\documents\visual studio 2013\Projects\Distribuidora\Distribuidora\obj\Debug\Distribuidora.NuevoCategoria.resources
 C:\Users\Andres\documents\visual studio 2013\Projects\Distribuidora\Distribuidora\obj\Debug\Distribuidora.Producto.resources
+C:\Users\Andres\documents\visual studio 2013\Projects\Distribuidora\Distribuidora\obj\Debug\Distribuidora.NuevoProducto.resources

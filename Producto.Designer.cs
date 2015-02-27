@@ -62,6 +62,7 @@
             this.btn_nuevo.TabIndex = 12;
             this.btn_nuevo.Text = "Nuevo";
             this.btn_nuevo.UseVisualStyleBackColor = true;
+            this.btn_nuevo.Click += new System.EventHandler(this.btn_nuevo_Click);
             // 
             // dataGridView1
             // 
