@@ -26,9 +26,9 @@ namespace Distribuidora
                 DataSet obj_dataset = new DataSet();
 
                 obj_sql.adapter(
-                    "SELECT p.id_producto AS ID, p.nombre AS NOMBRE, p.marca AS MARCA,"+ 
-                    "p.codigo AS CODIGO, p.precio AS PRECIO c.categoria AS CATEGORIA FROM productos p"+
-                    "INNER JOIN categorias c ON p.id_categoria = c.id_categoria;",
+                    "SELECT p.id_producto AS ID, p.nombre AS NOMBRE, p.marca AS MARCA, "+ 
+                    "p.codigo AS CODIGO, p.precio AS PRECIO, c.categoria AS CATEGORIA FROM productos p "+
+                    "INNER JOIN categorias c ON p.id_categoria=c.id_categoria;",
                     obj_sql.conexion()
                     ).Fill(obj_dataset);
                 dataGridView1.AutoGenerateColumns = true;
@@ -39,6 +39,11 @@ namespace Distribuidora
             {
                 MessageBox.Show(ex.Message);
             }
+        }
+
+        private void btn_regresar_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
